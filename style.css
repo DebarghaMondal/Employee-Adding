@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: black;
+    color: white;
+}
+
+#form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.head {
+    margin-top: 60px;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+input {
+    background-color: black;
+    padding: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+#btn {
+    width: 20vh;
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#message {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: rgb(199, 199, 199);
+    font-size: 12px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.employee-item {
+    width: fit-content;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.delete-btn {
+    font-size: 12px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 7px 18px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.info-spacing {
+    margin-left: 15px;
+}
